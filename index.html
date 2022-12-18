@@ -50,7 +50,45 @@
     <section class="top">
         <div class="container">
             <h1 class="toph">Effective Solutions<br>for Your Business </h1>
-            <button type="button">Order service</button>
+            <button type="button" data-modal-open>Order service</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <p>
+                        Почему программисты ненавидят работать с чужим кодом? Вот вам аналогия.
+                        Представьте, что вам доверили достроить за другим прорабом научную лабораторию на острове. Приходишь на объект, а там
+                        кроме недостроенного здания:
+                        — огромный вентилятор (размером со здание),
+                        — большой воздушный шар,
+                        — комната доверху набитая швабрами.
+
+                        Почесав голову, вы выгребаете хлам из комнаты и доделывате лабораторию. Сдаете объект ученым, но через 5 минут они
+                        выбегают с криком: «Утечка ядовитого газа!».
+                        «Как так–то, блин! Должно же работать!» — думаете вы, и в отчаянии звоните прошлому прорабу:
+                        — Вася, у нас ядовитый газ потёк! В чем проблема?
+                        — Не знаю, должно было все работать. Что–то в проекте менял?
+                        — Немного, швабры вынес...
+                        — Швабры потолок держали!
+                        — Что?
+                        — Говорю, швабры потолок держали. Над ними цистерны с газом были. Очень тяжелые, пришлось в комнату снизу швабры
+                        напихать.
+                        — Ты хотя бы записку на двери повесил, что швабры для держания потолка! У нас тут ядовитый газ течет! Что нам делать?
+                        — Включай вентилятор. Он сдует газ с острова.
+                        — Я его демонтировал сразу же!
+                        — Зачем?
+                        — А зачем ты построил 120-тонный вентилятор? Ты не мог положить ящик противогазов?
+                        — Ящик противогазов искать нужно, а вентилятор у меня с прошлого заказа оставался.
+                        — Вася, я убрал твой вентилятор! Мы тут задыхаемся!
+                        — Ну а хрен ли вы тогда там делаете? Садитесь на воздушный шар и сваливайте!
+                    </p>
+                    <!-- <button data-modal-close class="btncl"> -->
+                        <div data-modal-close class="btncl">
+                            <svg class="btnclsvg" width="8px" height="8px">
+                            <use href="./images/vector.svg"></use>
+                        </svg>
+                        </div>
+                    <!-- </button> -->
+                </div>
+            </div>
         </div>
     </section>
     
@@ -120,7 +158,7 @@
             <div class="socstaff">
                 <ul class="socul">
                     <li class="socli">
-                    <a href="Mark Guerrero">
+                    <a href="/Mark Guerrero">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#instagram" width="16" height="16"></use>
                         </svg>
@@ -128,7 +166,7 @@
                     </li>
 
                     <li class="socli">
-                    <a href="Mark Guerrero">
+                    <a href="/Mark Guerrero">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#twitter" width="16" height="16"></use>                        
                         </svg>
@@ -136,7 +174,7 @@
                     </li>
 
                     <li class="socli">
-                    <a href="Mark Guerrero">
+                    <a href="/Mark Guerrero">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#facebook" width="16" height="16"></use>
                         </svg>
@@ -144,7 +182,7 @@
                     </li>
 
                     <li class="socli">
-                    <a href="Mark Guerrero">
+                    <a href="/Mark Guerrero">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#linkedin" width="16" height="16"></use>
                         </svg>
@@ -164,7 +202,7 @@
             <div class="socstaff">
                 <ul class="socul">
                     <li class="socli">
-                        <a href="Tom Ford">
+                        <a href="/Tom Ford">
                     <svg class="social" width="16" height="16">
                     <use href="./images/symbol-defs.svg#instagram" width="16" height="16"></use>
                     </svg>
@@ -172,7 +210,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Tom Ford">
+                        <a href="/Tom Ford">
                             <svg class="social" width="16" height="16">
                             <use href="./images/symbol-defs.svg#twitter" width="16" height="16"></use>                        
                             </svg>
@@ -180,7 +218,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Tom Ford">
+                        <a href="/Tom Ford">
                     <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#facebook" width="16" height="16"></use>
                     </svg>
@@ -188,7 +226,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Tom Ford">
+                        <a href="/Tom Ford">
                     <svg class="social" width="16" height="16">
                     <use href="./images/symbol-defs.svg#linkedin" width="16" height="16"></use>
                     </svg>
@@ -208,7 +246,7 @@
             <div class="socstaff">
                 <ul class="socul">
                     <li class="socli">
-                        <a href="Camila Garcia">
+                        <a href="/Camila Garcia">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#instagram" width="16" height="16"></use>
                         </svg>
@@ -216,7 +254,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Camila Garcia">
+                        <a href="/Camila Garcia">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#twitter" width="16" height="16"></use>                        
                         </svg>
@@ -224,7 +262,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Camila Garcia">
+                        <a href="/Camila Garcia">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#facebook" width="16" height="16"></use>
                         </svg>
@@ -232,7 +270,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Camila Garcia">
+                        <a href="/Camila Garcia">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#linkedin" width="16" height="16"></use>
                         </svg>
@@ -251,7 +289,7 @@
             <div class="socstaff">
                 <ul class="socul">
                     <li class="socli">
-                        <a href="Daniel Wilson">
+                        <a href="/Daniel Wilson">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#instagram" width="16" height="16"></use>
                         </svg>
@@ -259,7 +297,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Daniel Wilson">
+                        <a href="/Daniel Wilson">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#twitter" width="16" height="16"></use>
                         </svg>
@@ -267,7 +305,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Daniel Wilson">
+                        <a href="/Daniel Wilson">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#facebook" width="16" height="16"></use>
                         </svg>
@@ -275,7 +313,7 @@
                     </li>
 
                     <li class="socli">
-                        <a href="Daniel Wilson">
+                        <a href="/Daniel Wilson">
                         <svg class="social" width="16" height="16">
                         <use href="./images/symbol-defs.svg#linkedin" width="16" height="16"></use>
                         </svg>
@@ -294,7 +332,7 @@
         <h2>customers</h2>
         <ul class="custul">
                 <li class="custli">
-                <a href="customers" class="custa">
+                <a href="/customers" class="custa">
                     <svg class="custsvg" width="104px" height="56px">
                     <use href="./images/symbol-defs.svg#logo"></use>
                 </svg> 
@@ -302,7 +340,7 @@
             </li>
 
             <li class="custli" >
-                <a href="customers" class="custa">
+                <a href="/customers" class="custa">
                 <svg class="custsvg" width="104" height="56">
                     <use href="./images/symbol-defs.svg#logo1"></use>
                 </svg>
@@ -310,7 +348,7 @@
             </li>
 
             <li class="custli">
-                <a href="customers" class="custa">
+                <a href="/customers" class="custa">
                 <svg class="custsvg" width="104" height="56">
                     <use href="./images/symbol-defs.svg#logo2"></use>
                 </svg>
@@ -318,7 +356,7 @@
             </li>
 
             <li class="custli">
-                <a href="customers" class="custa">
+                <a href="/customers" class="custa">
                 <svg class="custsvg" width="104" height="56">
                     <use href="./images/symbol-defs.svg#logo3"></use>
                 </svg>
@@ -326,7 +364,7 @@
             </li>
 
             <li class="custli">
-                <a href="customers" class="custa">
+                <a href="/customers" class="custa">
                 <svg class="custsvg" width="104" height="56">
                     <use href="./images/symbol-defs.svg#logo4"></use>
                 </svg>
@@ -334,7 +372,7 @@
             </li>
 
             <li class="custli">
-                <a href="customers" class="custa">
+                <a href="/customers" class="custa">
                 <svg class="custsvg" width="104px" height="56px">
                     <use href="./images/symbol-defs.svg#logo5"></use>
                 </svg>
@@ -394,6 +432,7 @@
         </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
     
 </html>
